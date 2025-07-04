@@ -1,0 +1,21 @@
+# Creating a list
+fruits = ["apple🍎", "banana🍌", "cherry🍒", "pineapple🍍"]
+
+# Accessing elements
+print(fruits[0])  #Output: apple🍎
+print(fruits[-1]) # Output: pineapple🍍 
+
+# Adding an element
+fruits.append("watermelon🍉")
+print(fruits)  # ['apple🍎', 'banana🍌', 'cherry🍒', 'pineapple🍍', 'watermelon🍉']
+
+# Removing an element
+fruits.remove("banana🍌")
+print(fruits)  # ['apple🍎', 'cherry🍒', 'pineapple🍍', 'watermelon🍉']
+
+# Looping through a list
+for fruit in fruits:
+    print(fruit)
+
+# List length
+print("Total fruits:", len(fruits))
